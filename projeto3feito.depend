@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1629217632 source:e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\imagem.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"imagem.h"
+
+1629217632 e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\imagem.h
+
+1629944021 source:e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"trabalho3.h"
+
+1629217632 e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\trabalho3.h
+	"imagem.h"
+
+1629931714 source:e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\p3-2004585-2377608-2377616.c
+	<stdio.h>
+	<stdlib.h>
+	"trabalho3.h"
+
+1629931714 source:e:\rraso\documentos\trabalhos\prog\projeto3-definitivo-rafael-gabriel-ju\t3-2004585-2377608-2377616.c
+	<stdio.h>
+	<stdlib.h>
+	"trabalho3.h"
+
