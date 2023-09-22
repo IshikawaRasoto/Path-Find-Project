@@ -9,14 +9,13 @@ e a busca por um caminho mínimo. Desta forma, as ideias por trás do trabalho e
 como a definição do caminho a ser seguido por personagens de um game.
 A entrada do sistema é um conjunto de imagens como as mostradas abaixo:
 
-
-
+<img src="https://github.com/IshikawaRasoto/FindPathProject/blob/main/readme/exemploEntradas.png?raw=true" height=500>
 
 Cada imagem corresponde a um caso de teste, e foi obtida desenhando-se um “labirinto” sobre um papel branco, usando caneta preta. O desenho foi então fotografado e a imagem cortada, de forma que existe uma única “entrada” à esquerda e pelo menos uma “saída” à direita. Por se tratarem de fotografias, as imagens não contêm exatamente um caminho preto sobre uma superfície branca – as imagens são afetadas por sombras e pela iluminação, e em alguns casos o conteúdo no verso da folha pode ser visto.
 
 O desafio do trabalho é determinar, para cada caso de teste, o menor caminho possível entre a entrada à esquerda e uma das saídas à direita, tendo como base apenas a própria imagem do caso de teste. O caminho deve passar sobre ou próximo às linhas escuras, como mostrado em vermelho nas figuras abaixo
 
-
+<img src="https://github.com/IshikawaRasoto/FindPathProject/blob/main/readme/ExemploSaida.png?raw=true" height=500>
 
 O seu trabalho é criar uma função com o protótipo abaixo:
 int encontraCaminho (Imagem1C* img, Coordenada** caminho);
@@ -106,4 +105,40 @@ maneira simples, funcional e organizada.
 
 ## Resultados
 
+### Score
+
+O professor Bogdan escreveu dois algorítmos, o ref como parâmetro para atingir e o Dijkstra para explicar o conceito aos alunos.
+
+A pontuação foi realizada por um algoritmo que soma o valor de cinza de cada pixel pelo qual o caminho passa, dessa forma, quanto mais preciso o caminho for, mais tempo sobre pixels pretos com baixo valor de cinza, sendo assim, quanto menor o resultado, melhor.
+
+Os resultados obtidos foram: 
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/blob/main/readme/ResultadoProjeto3FundProg.png?raw=true">
+
 ### Imagens: Entrada | Saída
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/teste0.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out0.bmp" width=300> 
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE1.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out1.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE2.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out2.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE3.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out3.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE4.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out4.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE5.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out5.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/TESTE6.BMP" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out6.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/teste7.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out7.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/teste8.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out8.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/teste9.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out9.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/teste10.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out10.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/t3-2004585-2377608-2377616.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out11.bmp" width=300>
+
+<img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/img/img1.bmp" width=300> <img src="https://github.com/IshikawaRasoto/FindPathProject/raw/main/out12.bmp" width=300>
